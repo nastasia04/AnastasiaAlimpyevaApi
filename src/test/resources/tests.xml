@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tests">
+    <test name="Tests">
+        <classes>
+            <class name="low_level.spellerLowerTests"/>
+            <class name="functional_level.checkAdditionalOptions"/>
+            <class name="functional_level.checkCorrectTextsInResponse"/>
+        </classes>
+    </test>
+</suite>
